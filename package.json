@@ -1,0 +1,25 @@
+{
+  "name": "aurnws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/thierhost/aurnws.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/thierhost/aurnws/issues"
+  },
+  "homepage": "https://gitlab.com/thierhost/aurnws#README",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.7.6"
+  }
+}
