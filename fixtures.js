@@ -26,8 +26,9 @@ user.save(function (err,user) {
 // creation des posts
 for (let i = 0; i< 20; i++ ){
     let post = new Posts({
-        title : ' Title for content number : '+(i+1),
-        content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+        title : ' Title '+(i+1),
+        content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+        date : new Date()
 
     });
     post.save(function (err,post) {
