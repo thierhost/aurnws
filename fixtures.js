@@ -1,7 +1,7 @@
 'use strict';
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://aurnws:aurnws@ds157288.mlab.com:57288/aurnws');
+mongoose.connect('mongodb://aurnws:aurnws@ds157288.mlab.com:57288/aurnws',{ config: { autoIndex: false } });
 
 var User = require('./users');
 var Posts = require('./posts');
